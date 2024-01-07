@@ -1,25 +1,12 @@
-# AGC-DRR
-Attributed Graph Clustering with Dual Redundancy Reduction (IJCAI 2022)
+# AGC-DRR 在Cora、Citeseer的实现
 
-GCN,Graph Contrastive Learning
+*鉴于不少顶会论文(如[CONVERT](https://arxiv.org/pdf/2308.08963.pdf)、[CONGREGATE](https://www.ijcai.org/proceedings/2023/0255.pdf)、[AGCLA](https://arxiv.org/pdf/2212.03559.pdf)）对AGC-DRR在cora上的效果复现，与其真实表现差别太多，在这里给出了我的实现*
 
-e-mail:glnudt@163.com 
+### 实验效果
 
+| AGC-DRR| ACC |NMI | ARI |F1|
+| CORA  | 64.58±3.29   | 48.81±3.22| 41.14±4.23 |59.09±2.52|
+| CITESERR    | 10000 |   5    |   |   |
 
+---
 
-
-@inproceedings{ijcai2022p418,
-  title     = {Attributed Graph Clustering with Dual Redundancy Reduction},
-  author    = {Gong, Lei and Zhou, Sihang and Tu, Wenxuan and Liu, Xinwang},
-  booktitle = {Proceedings of the Thirty-First International Joint Conference on
-               Artificial Intelligence, {IJCAI-22}},
-  publisher = {International Joint Conferences on Artificial Intelligence Organization},
-  editor    = {Lud De Raedt},
-  pages     = {3015--3021},
-  year      = {2022},
-  month     = {7},
-  note      = {Main Track},
-  doi       = {10.24963/ijcai.2022/418},
-  url       = {https://doi.org/10.24963/ijcai.2022/418 },
-
-}
